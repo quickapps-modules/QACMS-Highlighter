@@ -1,0 +1,5 @@
+name: Highlighter
+description: Code syntax highlighting
+category: Editor
+version: 1.0
+core: 1.x

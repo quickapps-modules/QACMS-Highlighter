@@ -1,0 +1,44 @@
+#Highlighter
+
+Highlighter module allows you to easily post syntax highlighted code all without loosing it’s formatting or making an manual changes.
+
+It supports the following languages (the alias for use in the post is listed next to the name):
+
+* AS3 — as, as3
+* C++ — cpp, c, c++
+* C# — c#, c-sharp, csharp
+* ColdFusion – cf, coldfusion
+* CSS — css
+* Delphi — delphi, pascal
+* Diff/Patches — diff
+* Erlang — erlang
+* Groovy — groovy
+* Java — java
+* JavaFX — javafx
+* JavaScript — js, jscript, javascript
+* Perl — perl
+* PHP — php
+* Plain text — plain
+* PowerShell — powershell
+* Python — py, python
+* Ruby — rb, ruby, rails, ror
+* Scala — scala
+* SQL — sql
+* VB — vb, vb.net
+* XML/HTML — xml, html, xhtml, xslt
+
+CSS themes:
+
+* Default
+* Django
+* Eclipse
+* Emacs
+* Fade To Grey
+* Midnight
+* RDark
+
+You can change the theme in the module settings page (/admin/system/modules/settings/Highlighter).
+
+#Usage
+
+Just wrap your code in [sourcecode language='css']code here[/sourcecode]. The language attribute is required!
