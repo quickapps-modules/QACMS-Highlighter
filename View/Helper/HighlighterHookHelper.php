@@ -10,7 +10,7 @@ class HighlighterHookHelper extends AppHelper {
             $js['file'][] = '/highlighter/js/shBrushPlain.js';
             $js['file'][] = '/highlighter/js/shBrushSql.js';
             $js['file'][] = '/highlighter/js/shBrushXml.js';
-            $js['embed'][] = "
+            $js['inline'][] = "
                 SyntaxHighlighter.config.stripBrs = true;
 				SyntaxHighlighter.defaults['wrap-lines'] = true;
 				SyntaxHighlighter.all();";
@@ -23,7 +23,7 @@ class HighlighterHookHelper extends AppHelper {
             $theme = !$theme ? 'Default' : $theme;
             $css['all'][] = '/highlighter/css/shCore.css';
             $css['all'][] = "/highlighter/css/shTheme{$theme}.css";
-            $css['embed'][] = 'code, div.line { text-shadow:none; }';
+            $css['inline'][] = 'code, div.line { text-shadow:none; }';
         }
     }
 }
