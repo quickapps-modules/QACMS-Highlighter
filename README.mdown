@@ -1,5 +1,7 @@
 #Highlighter
 
+[![QuickApps CMS](https://raw.github.com/QuickAppsCMS/QuickApps-CMS-Docs/1.x/img/logo.png)](http://www.quickappscms.org)
+
 Highlighter module allows you to easily post syntax highlighted code all without loosing it’s formatting or making an manual changes.
 
 It supports the following languages (the alias for use in the post is listed next to the name):
